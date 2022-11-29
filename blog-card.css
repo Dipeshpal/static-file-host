@@ -1,20 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .card {
   display: grid;
   position: relative;
