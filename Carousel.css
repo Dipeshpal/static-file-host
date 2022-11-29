@@ -1,3 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.title{
+  margin-top: 50px;
+  h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #d63031;
+    
+    span{
+      display: block;
+      color: darken(#d63031, 40%);
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
 /*Carousel Gallery*/
 .carousel-gallery{
 	margin: 50px 0;
